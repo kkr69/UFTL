@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>UFTL</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+    <script src="jquer.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script>
+  $(document).ready(function() {
+    $('.form-switch').on('change', function() {
+      $('.form').removeClass('active');
+      var formToShow = '.form-' + $(this).data('id');
+      $(formToShow).addClass('active');
+    });
+  });
+</script>
+   <!-- <link rel="stylesheet" type="text/css" media="screen" href="bootstrap-4.3.1-dist/css/bootstrap.min.css" />-->
+</head>
+<body>
+   <header>
+      <div class="topnav">
+          <a href="#">Emp Name</a>
+          <a id="img"><img rel="logo" src="images/1.jpg"></a>
+        </div>
+        <div>
+      <ul>
+          <li><a  href="#">Home</a></li>
+          <li><a href="#">FLPET Manual</a></li>
+          <li id="lout2"><a href="#"> Logout  </a></li>
+          <li id="lout1"><a href="#">  &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+          <li id="lout"><a href="#"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+        </ul>
+      </div>
+   </header>
+   <br>
+   <br>
+   <form class="form1">
+      <ull>
+        <lii><input type="radio" class="form-switch" name="opinions" data-id="radio1" /> 
+          <label  for="radio1">&nbsp;&nbsp;&nbsp;Trainee1&nbsp;&nbsp;&nbsp;</label></lii>
+
+        <lii><input type="radio" class="form-switch" name="opinions" data-id="radio2" /> 
+          <label  for="radio2">&nbsp;&nbsp;&nbsp;Trainee2&nbsp;&nbsp;&nbsp;</label></lii>
+
+        <lii><input type="radio" class="form-switch" name="opinions" data-id="radio3" /> 
+          <label  for="radio3">&nbsp;&nbsp;&nbsp;Trainee3&nbsp;&nbsp;&nbsp;</label></lii>
+        
+            <lii><input type="radio" class="form-switch" name="opinions" data-id="radio4" /> 
+              <label  for="radio4">&nbsp;&nbsp;&nbsp; Trainee4 &nbsp;&nbsp;&nbsp;</label></lii>
+            
+                <lii><input type="radio" class="form-switch" name="opinions" data-id="radio5" /> 
+                  <label  for="radio5">&nbsp;&nbsp;&nbsp;Traine5&nbsp;&nbsp;&nbsp;</label></lii>
+                </ull>
+    </form>
+    <br><br><br>
+    <br>
+    <div id="bar">
+    <h6 >Section1-Basic Information</h6>
+  </div>
+  <br>
+<div class="form form-radio1">
+<div class="radioform">
+  <div class="radimg" >
+     <div class="colum">
+  <img src="images/img1.png" style="width: 110px; border-radius: 50%">
+  <p style="padding-left: 10px;">Intern photo</p>
+</div>
+   </div>
+<div class="inputcol">
+  <div class="colum1">
+  FLP/ET name:
+  <input type="text" value="Trainee1" placeholder="Trainee1"><br>
+  Institute:
+  <input type="text" value="Institute" ><br>
+  Mentor:
+  <input type="text" value="Mentor" ><br>
+</div>
+  <div class="colum2">
+  Function:
+  <input type="text" value="Function"><br>
+  D.O.J:
+  <input type="text" value="14-aug-2015"><br>
+  Coach:
+  <input type="text" value="Coach"><br>
+</div>
+  <div class="colum3">
+  Buddy:
+  <input type="text" value="Buddy"><br>
+  SCLT:
+  <input type="text" value="SCLT"><br>
+</div>
+  <i class="fa fa-envelope" aria-hidden="true">Send the UFLP a note</i>
+  <p style="float:right;">LP/ET Profile Sheet(LT)</p>
+</div>
+</div></div>
+
+<div class="form form-radio2">
+    <div class="radioform">
+      <div class="radimg" >
+         <div class="colum">
+      <img src="images/img1.png" style="width: 110px; border-radius: 50%">
+      <p style="padding-left: 10px;">Intern photo</p>
+    </div>
+       </div>
+    <div class="inputcol">
+      <div class="colum1">
+      FLP/ET name:
+      <input type="text" value="Trainee2" placeholder="Trainee2"><br>
+      Institute:
+      <input type="text" value="Institute" ><br>
+      Mentor:
+      <input type="text" value="Mentor" ><br>
+    </div>
+      <div class="colum2">
+      Function:
+      <input type="text" value="Function"><br>
+      D.O.J:
+      <input type="text" value="14-aug-2015"><br>
+      Coach:
+      <input type="text" value="Coach"><br>
+    </div>
+      <div class="colum3">
+      Buddy:
+      <input type="text" value="Buddy"><br>
+      SCLT:
+      <input type="text" value="SCLT"><br>
+    </div>
+      <i class="fa fa-envelope" aria-hidden="true">Send the UFLP a note</i>
+      <p style="float:right;">LP/ET Profile Sheet(LT)</p>
+    </div>
+    </div></div>
+
+    <div class="form form-radio3">
+        <div class="radioform">
+          <div class="radimg" >
+             <div class="colum">
+          <img src="images/img1.png" style="width: 110px; border-radius: 50%">
+          <p style="padding-left: 10px;">Intern photo</p>
+        </div>
+           </div>
+        <div class="inputcol">
+          <div class="colum1">
+          FLP/ET name:
+          <input type="text" value="Trainee3" placeholder="Trainee3"><br>
+          Institute:
+          <input type="text" value="Institute" ><br>
+          Mentor:
+          <input type="text" value="Mentor" ><br>
+        </div>
+          <div class="colum2">
+          Function:
+          <input type="text" value="Function"><br>
+          D.O.J:
+          <input type="text" value="14-aug-2015"><br>
+          Coach:
+          <input type="text" value="Coach"><br>
+        </div>
+          <div class="colum3">
+          Buddy:
+          <input type="text" value="Buddy"><br>
+          SCLT:
+          <input type="text" value="SCLT"><br>
+        </div>
+          <i class="fa fa-envelope" aria-hidden="true">Send the UFLP a note</i>
+          <p style="float:right;">LP/ET Profile Sheet(LT)</p>
+        </div>
+        </div></div>
+
+        <div class="form form-radio4">
+            <div class="radioform">
+              <div class="radimg" >
+                 <div class="colum">
+              <img src="images/img1.png" style="width: 110px; border-radius: 50%">
+              <p style="padding-left: 10px;">Intern photo</p>
+            </div>
+               </div>
+            <div class="inputcol">
+              <div class="colum1">
+              FLP/ET name:
+              <input type="text" value="Trainee4" placeholder="Trainee4"><br>
+              Institute:
+              <input type="text" value="Institute" ><br>
+              Mentor:
+              <input type="text" value="Mentor" ><br>
+            </div>
+              <div class="colum2">
+              Function:
+              <input type="text" value="Function"><br>
+              D.O.J:
+              <input type="text" value="14-aug-2015"><br>
+              Coach:
+              <input type="text" value="Coach"><br>
+            </div>
+              <div class="colum3">
+              Buddy:
+              <input type="text" value="Buddy"><br>
+              SCLT:
+              <input type="text" value="SCLT"><br>
+            </div>
+              <i class="fa fa-envelope" aria-hidden="true">Send the UFLP a note</i>
+              <p style="float:right;">LP/ET Profile Sheet(LT)</p>
+            </div>
+            </div></div>
+
+            <div class="form form-radio5">
+                <div class="radioform">
+                  <div class="radimg" >
+                     <div class="colum">
+                  <img src="images/img1.png" style="width: 110px; border-radius: 50%">
+                  <p style="padding-left: 10px;">Intern photo</p>
+                </div>
+                   </div>
+                <div class="inputcol">
+                  <div class="colum1">
+                  FLP/ET name:
+                  <input type="text" value="Trainee5" placeholder="Trainee5"><br>
+                  Institute:
+                  <input type="text" value="Institute" ><br>
+                  Mentor:
+                  <input type="text" value="Mentor" ><br>
+                </div>
+                  <div class="colum2">
+                  Function:
+                  <input type="text" value="Function"><br>
+                  D.O.J:
+                  <input type="text" value="14-aug-2015"><br>
+                  Coach:
+                  <input type="text" value="Coach"><br>
+                </div>
+                  <div class="colum3">
+                  Buddy:
+                  <input type="text" value="Buddy"><br>
+                  SCLT:
+                  <input type="text" value="SCLT"><br>
+                </div>
+                  <i class="fa fa-envelope" aria-hidden="true">Send the UFLP a note</i>
+                  <p style="float:right;">LP/ET Profile Sheet(LT)</p>
+                </div>
+                </div></div>
+
+</body>
+</html>
